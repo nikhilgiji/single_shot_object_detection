@@ -23,5 +23,5 @@ run app
 ### Run model image. 
 run object detection on single image.
 ```shell
-    object_detection_image.py image_name.jpg 
+    object_detection_image.py test/image_name.jpg 
 ``` 

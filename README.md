@@ -7,6 +7,10 @@ Single shot object detection using YOLO V3 object detection model. You only look
 
 ### Download Model 
 
+```shell
+    cd model
+``` 
+
 #### Model Weights
 
 Download the YOLO V3 model weights from [here](https://pjreddie.com/media/files/yolov3.weights).

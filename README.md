@@ -6,15 +6,10 @@ Single shot object detection using YOLO V3 object detection model. You only look
 
 
 ### Download Model 
-
 ```shell
     cd model && wget https://pjreddie.com/media/files/yolov3.weights
 ``` 
-
 #### Run App 
-
-Go To 
-
 cd into root directory & cd into app directory.
 
 ```shell
@@ -22,14 +17,11 @@ cd into root directory & cd into app directory.
     cd app 
 ```  
 run app 
-
 ```shell
     streamlit run ./app.py 
 ```  
-### Run Model
-
-Run depth estimation on a single image
-
+### Run model image. 
+run object detection on single image.
 ```shell
     object_detection_image.py image_name.jpg 
 ``` 

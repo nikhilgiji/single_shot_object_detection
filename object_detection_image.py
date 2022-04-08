@@ -1,11 +1,12 @@
 import cv2
 import numpy as np 
 import argparse 
+import config
 
 # load yolo 
-net = cv2.dnn.readNet("yolov3.weights", "yolov3.cfg")
+net = cv2.dnn.readNet(config.CONFIG_PATH, config.MODEL_PATH)
 classes = []
-with open("coco.names", "r") as f:
+with open(config.LABEL_PATH, "r") as f:
     classes = [line.strip() for line in f.readlines()]
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()] 

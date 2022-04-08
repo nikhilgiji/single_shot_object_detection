@@ -15,12 +15,12 @@ Single shot object detection using YOLO V3 object detection model. You only look
 
 Go To 
 
-cd into root directory & cd into app 
+cd into root directory & cd into app directory.
 
 ```shell
     cd .. 
     cd app 
-``` 
+```  
 
 ### Run Model
 

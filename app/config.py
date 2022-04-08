@@ -1,7 +1,7 @@
 import numpy as np
 
 # local directory path
-DIR_PATH = 'D:/cs/deep_learning/object_detection_yolo/'
+DIR_PATH = 'single_shot_object_detection/'
 
 model = 'model/yolov3.weights'
 model_config = 'model/yolov3.cfg'

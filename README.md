@@ -16,7 +16,7 @@ cd into root directory & cd into app directory.
     cd .. 
     cd app 
 ```  
-run app 
+run streamlit app
 ```shell
     streamlit run ./app.py 
 ```  

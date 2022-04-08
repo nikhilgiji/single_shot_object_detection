@@ -13,6 +13,10 @@ Single shot object detection using YOLO V3 object detection model. You only look
 
 #### Run App 
 
+Go To 
+
+cd into root directory & cd into app 
+
 ```shell
     cd .. 
     cd app 

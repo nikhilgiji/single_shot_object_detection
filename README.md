@@ -1,5 +1,6 @@
-# single_shot_object_detection
-single shot object detection using YOLO V3 object detection model
+# Single Shot Object Detection
+
+Single shot object detection using YOLO V3 object detection model. You only look once (YOLO) is a state-of-the-art, real-time object detection system. Here a single neural network is applied to the full image. This network divides the image into regions and predicts bounding boxes and probabilities for each region. These bounding boxes are weighted by the predicted probabilities.
 
 [YOLOv3: An Incremental Improvement. Joseph Redmon, Ali Farhadi](https://arxiv.org/abs/1804.02767)
 

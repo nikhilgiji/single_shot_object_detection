@@ -11,10 +11,12 @@ Single shot object detection using YOLO V3 object detection model. You only look
     cd model && wget https://pjreddie.com/media/files/yolov3.weights
 ``` 
 
-#### Config 
+#### Run App 
 
-Model Config [here](https://opencv-tutorial.readthedocs.io/en/latest/_downloads/10e685aad953495a95c17bfecd1649e5/yolov3.cfg).
-
+```shell
+    cd .. 
+    cd app 
+``` 
 
 ### Run Model
 

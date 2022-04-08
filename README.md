@@ -21,7 +21,11 @@ cd into root directory & cd into app directory.
     cd .. 
     cd app 
 ```  
+run app 
 
+```shell
+    streamlit run ./app.py 
+```  
 ### Run Model
 
 Run depth estimation on a single image
